@@ -1,12 +1,15 @@
 import React from "react";
 import "../../styles/Principal.css";
-import fondo from "../../img/fondo-principal.png";
 import Navbar from "./Navbar";
+import video from "../../videos/video-fondo.mp4";
 
 const Principal = () => {
     return (
-        <div className="principal-section text-center" style={{ backgroundImage: `url(${fondo})` }}>
-            <div className="overlay"></div>
+        <div className="principal-section">
+            <video autoPlay loop muted className="background-video">
+                <source src={video} type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
             <Navbar />
             <div className="content-principal">
                 <h1 className="title-div">El Rinconcito</h1>
