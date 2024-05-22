@@ -26,14 +26,14 @@
 
 .title-div {
     font-family: 'Great Vibes', cursive;
-    font-size: 75px;
+    font-size: 85px;
     color: rgb(255, 246, 234);
     transition: all 0.3s ease;
     text-shadow: 0 0 10px rgb(0, 0, 0);
 }
 
 .subtitle-div {
-    font-size: 25px;
+    font-size: 30px;
     font-style: italic;
     color: rgb(252, 222, 166);
     text-shadow: 0 0 10px rgb(39, 39, 36);

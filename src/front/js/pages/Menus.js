@@ -14,26 +14,24 @@ const Menus = () => {
                     className={`section ${activeSection === "menu1" ? "active" : ""}`} 
                     onClick={() => setActiveSection("menu1")}
                 >
-                    Menu 1
+                    Menú Diario
                 </div>
                 <div 
                     className={`section ${activeSection === "menu2" ? "active" : ""}`} 
                     onClick={() => setActiveSection("menu2")}
                 >
-                    Menu 2
+                    Menú Especial
                 </div>
             </div>
             <div className="content container">
                 {activeSection === "menu1" && (
-                    <div>
-                        {/* Contenido del Menu 1 */}
-                        <h2>Contenido del Menu 1</h2>
+                    <div className="content-menu">
+                        <h2 className="title-menu">Menú Diario</h2>
                     </div>
                 )}
                 {activeSection === "menu2" && (
-                    <div>
-                        {/* Contenido del Menu 2 */}
-                        <h2>Contenido del Menu 2</h2>
+                    <div className="content-menu">
+                        <h2 className="title-menu">Menú Especial</h2>
                     </div>
                 )}
             </div>

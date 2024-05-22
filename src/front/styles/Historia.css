@@ -7,3 +7,10 @@
     background-position: center;
     padding: 20px;
 }
+
+.contenido-historia {
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    font-size: 1.2rem;
+}

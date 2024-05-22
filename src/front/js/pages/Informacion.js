@@ -33,7 +33,7 @@ const Informacion = () => {
                             <p className="info-text"><FontAwesomeIcon icon={faMapMarkerAlt} className="me-1" /> C/ del Padre Claret, 12. Madrid</p>
                             <LoadScript googleMapsApiKey={process.env.API_KEY_GOOGLE} loadingElement={<div>Loading...</div>} libraries={["places"]} >
                                 <GoogleMap
-                                    mapContainerStyle={{ width: '80%', height: '300px', borderRadius: '10px', border: '2px solid black' }}
+                                    mapContainerStyle={{ width: '80%', height: '300px', borderRadius: '10px', border: '3px solid whitesmoke' }}
                                     center={location}
                                     zoom={12}
                                 >

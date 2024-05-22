@@ -7,6 +7,7 @@ const Historia = () => {
     return(
         <div className="historia-div" style={{ backgroundImage: `url(${fondo})` }}>
             <Navbar />
+            <p className="contenido-historia">En el rinconcito somos unos auténticos máquinas</p>
         </div>
     )
 }

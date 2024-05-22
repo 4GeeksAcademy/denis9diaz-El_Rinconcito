@@ -30,7 +30,7 @@ const Footer = () => (
             </div>
         </div>
         <div className="footer-bottom">
-            <p className="footer-text">&copy; {new Date().getFullYear()} El Rinconcito. Todos los derechos reservados.</p>
+            <p className="footer-text">&copy; 1981 - {new Date().getFullYear()} El Rinconcito. Todos los derechos reservados.</p>
         </div>
     </footer>
 );
