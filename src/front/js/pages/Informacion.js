@@ -22,8 +22,8 @@ const Informacion = () => {
                     <div className="col-md-4 div1">
                         <div className="informacion-item">
                             <h2>Horario</h2>
-                            <p className="info-text"><FontAwesomeIcon icon={faCalendar} className="me-1" /> Domingo a Viernes: 12:00 - 00:00</p>
-                            <p className="info-text"><FontAwesomeIcon icon={faCalendar} className="me-1" /> Sábado: 11:00 - 01:00</p>
+                            <p className="info-text"><FontAwesomeIcon icon={faCalendar} className="me-1" /> Martes a Sábado: 13:30 - 16:30 | 20.30 - 23:30</p>
+                            <p className="info-text"><FontAwesomeIcon icon={faCalendar} className="me-1" /> Domingo: 12:00 - 17:00</p>
                             <p className="info-text"><FontAwesomeIcon icon={faCalendar} className="me-1" /> Lunes: Cerrado</p>
                         </div>
                     </div>
@@ -46,8 +46,8 @@ const Informacion = () => {
                     <div className="col-md-4 div3">
                         <div className="informacion-item">
                             <h2>Contacto</h2>
-                            <p className="info-text"><FontAwesomeIcon icon={faPhone} className="me-1" /> 123456789</p>
-                            <p className="info-text"><FontAwesomeIcon icon={faEnvelope} className="me-1" /> elrinconcito@gmail.com</p>
+                            <p className="info-text"><FontAwesomeIcon icon={faPhone} className="me-1" /> 91 416 30 24</p>
+                            <p className="info-text"><FontAwesomeIcon icon={faEnvelope} className="me-1" /> elrinconcitoarzapua@gmail.com</p>
                         </div>
                     </div>
                 </div>
