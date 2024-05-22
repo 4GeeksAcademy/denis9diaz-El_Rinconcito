@@ -10,7 +10,7 @@ import img4 from "../../img/carnes.png";
 import img5 from "../../img/pescados.png";
 import img6 from "../../img/postres.png";
 import img7 from "../../img/bebidas.png";
-import img8 from "../../img/vinos.png";
+import img8 from "../../img/arroces.png";
 import img9 from "../../img/entrantes.png";
 
 const Galeria = () => {
